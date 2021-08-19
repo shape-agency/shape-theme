@@ -44,17 +44,17 @@
             <div class="trait-faites-nous-confiance"></div>
         </div>
     </div>
+
     <div class="centre">
             <div class="article-centre">
                 <h3>Donnez forme à votre projet.</h3>
-                <p>Une question concernant notre fonctionnement? <br> Un devis détaillant les réponses que nous pouvons vous <br> apportez vous sera transmis. SHAPE ne fait pas de copier/coller:Nous ne proposons que des stratégies <br> web personnalisées à nos clients.</p>
+                <p>Une question concernant notre fonctionnement? <br> Un devis détaillant les réponses que nous pouvons vous <br> apportez vous sera transmis. SHAPE ne fait pas de <br> copier/coller:Nous ne proposons que des stratégies <br> web personnalisées à nos clients.</p>
                    <button id="button">Je souhaite un devis</button>
             </div>
             <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
     </div>
-    </div>
-    </div>
-   
+    
+    
 
     <div class="container ">
         <h2 id="contact-h2">CONTACT</h2>
