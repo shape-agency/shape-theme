@@ -9,6 +9,9 @@
       <?php wp_head(); ?>
 </head>
 <body>
+<div class="cursor"></div>
+    <div class="cursor2"></div>
+
       <header id="header">
             <div class="logo header__child">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/logo/logo-shape.png" alt="">
@@ -44,3 +47,4 @@
                   document.getElementById('header').style.top = '0';
             }  */
       </script>
+  
