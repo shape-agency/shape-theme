@@ -7,13 +7,11 @@ Requires at least: 4.9.6
 Requires PHP: 5.2.4
 Version: 0.1
 */
-
 body{
     background-color: black;
 }
 
 .haut-de-page{
-    background-color: black;
     display: flex;
     flex-direction: row;
     flex-grow: 2;
@@ -30,14 +28,15 @@ body{
     padding-left: 4vw;
     padding-right: 4vw;
 }
-
-.titre-haut-carte{
-    background-color: black;
+.haut-de-page .article-haut{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-right: 4vw;
+    margin-left: 2vw;
 }
-
+.image-1 , .article-haut{
+    width: 50%;
+}
 h1{
     color: white;
     font-size: 240px;
@@ -67,8 +66,8 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     background-color:black;
-    height: 16vw;
-    width: 100vw;
+    /* height: 16vw;*/
+    width: 100vw; 
     flex-wrap: wrap;
 }
 

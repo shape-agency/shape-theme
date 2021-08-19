@@ -1,17 +1,19 @@
 <?php get_header();?>
+
+
     <div class="haut-de-page">
-       <div class="image-1">
-        <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
+        <div class="image-1">
+            <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
-            <div class="article-haut">
-                <h1>SHAPE</h1>
-                <h3 class="sous-titre">Vos projets prennent forme.</h3>
-                <p>SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
-            </div>
+        <div class="article-haut">
+            <h1>SHAPE</h1>
+            <h3 class="sous-titre">Vos projets prennent forme.</h3>
+            <p>SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
+        </div>
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
-        <h2 class="nos-services" href="#">NOS SERVICES</h2>
+            <h2 class="nos-services" href="#">NOS SERVICES</h2>
         </div>
     </div>
     <div class="carte">
@@ -19,15 +21,15 @@
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
             <h2 class="titre-carte">IDENTITÉ VISUELLE</h2>
             <p class="para-carte">Ensemble, bâtissons la communication visuelle de votre entreprise, elle a pour but de représenter la marque sur l'ensemble de ses supports de communication (logo, couleurs, typographies, iconographie...)</p>
-            </div>
+        </div>
             
         <div class="carte2">
-        <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
+            <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
             <h2 class="titre-carte"> DÉVELOPPEMENT</h2>
             <p class="para-carte">Nous concevons pour vous un site internet dont le but est de générer du trafic des propects. Nos développeurs et web designer créent des interfaces utilisateur uniques et modernes pour la croissance de votre entreprise</p>
         </div>
         <div class="carte3">
-        <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
+            <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
         </div>
@@ -38,8 +40,8 @@
     
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
-        <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-        <div class="trait-faites-nous-confiance"></div>
+            <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
+            <div class="trait-faites-nous-confiance"></div>
         </div>
     </div>
     <div class="centre">
@@ -55,13 +57,15 @@
    
 
     <div class="container ">
-        <h2>CONTACT</h2>
+        <h2 id="contact-h2">CONTACT</h2>
+
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
             <p 
              class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
             </p>
         </div>
+
         <div class="contact">
             <div class="contact_form">
                 <form action="form.php" method="post">
@@ -96,12 +100,13 @@
                 </div>
            </div> 
         </div>
-    <div class="test"></div>
-    
+    </div>
+
     <div id="equipe">
         <div class="container">
-            <h2>NOTRE ÉQUIPE</h2>
-            <div class="equipe_card container">
+            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+
+            <div class="equipe_card ">
                 <div class="equipe_card_membre">
                     <span>KARINA</span> <br> 
                     <img class="equipe_card_membre_img" src="<?php echo get_template_directory_uri(); ?>/assets/img/Avatar-karina.png" alt=""> <br> <br>
