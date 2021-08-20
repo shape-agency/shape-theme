@@ -5,11 +5,11 @@
         <div class="image-1">
             <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
-        <div class="article-haut">
-            <h1>SHAPE</h1>
-            <h3 class="sous-titre">Vos projets prennent forme.</h3>
-            <p>SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
-        </div>
+            <div class="article-haut">
+                <h1 class="titre_shape">SHAPE</h1>
+                <h5 id="sous-titre">Vos projets prennent forme.</h5>
+                <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
+            </div>
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
@@ -46,6 +46,7 @@
     </div>
 
     <div class="centre">
+<<<<<<< HEAD
             <div class="article-centre">
                 <h3>Donnez forme à votre projet.</h3>
                 <p>Une question concernant notre fonctionnement? <br> Un devis détaillant les réponses que nous pouvons vous <br> apportez vous sera transmis. SHAPE ne fait pas de <br> copier/coller:Nous ne proposons que des stratégies <br> web personnalisées à nos clients.</p>
@@ -55,9 +56,26 @@
     </div>
     
     
+=======
+        <div class="article-centre">
+            <h3>Donnez forme à votre projet.</h3>
+            <p> 
+                Une question concernant notre fonctionnement?<br>Un devis détaillant les réponses que nous pouvons vous apportez vous sera transmis. SHAPE ne fait pas de copier/coller:Nous ne proposons que des stratégies web personnalisées à nos clients 
+            </p>
+            <button id="button">Je souhaite un devis</button>
+        </div>
+        <div class="div_image_2">
+        <img class="image-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-2.png" alt="">
+        </div>
+    </div>
+    
+>>>>>>> main
 
     <div class="container ">
-        <h2 id="contact-h2">CONTACT</h2>
+
+        <div id="contact-h2-parent">
+            <h2 id="contact-h2">CONTACT</h2>
+        </div>
 
         <div class="contact_para-mobile">
             <h3>Je souhaite vous contacter</h3>
@@ -89,22 +107,24 @@
 
             <div class="contact_para"> 
                 <div class="contact_para-1">
-                    <h3>Je souhaite vous contacter</h3>
+                    <h3 class="contact_para-h3">Je souhaite vous contacter</h3>
                     <p 
                      class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
                     </p>
                 </div>
                 <div class="contact_para-2">
-                    <h3>Qui se cache derrière SHAPE ?</h3>
+                    <h3 class="contact_para-h3">Qui se cache derrière SHAPE ?</h3>
                     <button id="contact_para-2_bouton">Découvrir notre équipe</button>
                 </div>
            </div> 
         </div>
     </div>
 
-    <div id="equipe">
+    <div id="equipe" style="display:none">
         <div class="container">
-            <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            <div id="equipe-h2-parent">
+                <h2 id="equipe-h2">NOTRE ÉQUIPE</h2>
+            </div>
 
             <div class="equipe_card ">
                 <div class="equipe_card_membre">
@@ -128,5 +148,20 @@
             </p>
         </div>
     </div>
+    <script>
+        const ekip = document.getElementById('equipe');
+        const button = document.getElementById('contact_para-2_bouton');
+        var ie = 0;
+        button.addEventListener('click', toogleteam);
+        function toogleteam() {
+            if (ie == 0) {
+                ie++;
+                ekip.style.display = 'block';
+            }else{
+                ie = 0;
+                ekip.style.display = 'none';
+            }
+        }
+    </script>
 
 <?php get_footer(); ?>
