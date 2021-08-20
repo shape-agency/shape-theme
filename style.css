@@ -16,58 +16,78 @@ body{
     flex-direction: row;
     flex-grow: 2;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.titre_shape{
+    word-break: break-all;
+    font-size: 150px;
 }
 
 .div-img1{
-    width: 100%;
+    max-width: 1000px;
+    
+}
+.image-2{
+    max-width: 1000px; 
 }
 
 .article-haut{
-    width: 100%;
-    border: red 3px solid;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    max-width: 800px;
+    /* border: red 3px solid; */
+    /* padding-left: 4vw; */
+    /* padding-right: 4vw; */
 }
-.haut-de-page .article-haut{
+.image-1{
+    /* height: 45rem; */
+    /* object-fit: scale-down; */
+    /* margin: 0px; */
+    /* width: auto; */
+    /* padding-right: 8rem; */
+    /* border: red solid 2px; */
+    max-width: 1000px;
+    
+    /* padding-right: 4vw; */
+}
+.div_image_2{
+    max-width: 1000px;
+    /* text-align: right;
+    width: auto; */
+}
+
+
+.titre-haut-carte{
+    background-color: black;
     display: flex;
     flex-direction: column;
-    margin-right: 4vw;
-    margin-left: 2vw;
+    align-items: center;
 }
-.image-1 , .article-haut{
-    width: 50%;
-}
+
 h1{
     color: white;
     font-size: 240px;
 }
 
-.sous-titre{
+#sous-titre{
     color: #c09628;
+    padding-bottom: 100px ;
+    font-size: 32px;
 }
 
 p{
     color: white;
 }
 
-.image-1{
-    /* height: 45rem; */
-    object-fit: scale-down;
-    margin: 0px;
-    width: auto;
-    /* padding-right: 8rem; */
-    border: red solid 2px;
-    width: 100%;
-    padding-right: 4vw;
-}
+
 
 .carte{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color:black;
+    height: auto;
+    width: 100%;
     /* height: 16vw;*/
-    width: 100vw; 
     flex-wrap: wrap;
 }
 
@@ -164,7 +184,7 @@ h2:hover:after {
     justify-content: space-between;
 }
 
-.centre .article-centre{
+.article-centre{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -200,6 +220,9 @@ h3{
     margin-right:50%;
     
 }
+.para_shape{
+    margin-right: 200px;
+}
 
 .faites-nous-confiance{
 
@@ -226,10 +249,9 @@ h3{
     border-radius: 6px;
 }
 
-#button:active{
-background-color:#c09628 ;
-outline: none;
-color:white;
+#button:hover{
+    background-color:#c09628 ;
+    color: white;
 }
 
 .para-carte{
