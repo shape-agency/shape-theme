@@ -157,9 +157,8 @@ h2:hover:after {
 
 .centre{
     display: flex;
-    flex-direction: row;
-    
-    width: 100%; 
+    flex-direction: row;  
+    width: auto; 
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -176,8 +175,8 @@ h2:hover:after {
 
 .image-2{
  max-width: 550px;
- flex: 2;
  border: solid 1px blue;
+ margin-right: 20vh;
 }
 
 h3{
