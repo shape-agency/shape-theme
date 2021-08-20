@@ -196,8 +196,6 @@ h2:hover:after {
 
 .image-2{
  max-width: 550px;
- flex: 2;
- border: solid 1px blue;
 }
 
 h3{
