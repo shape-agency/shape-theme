@@ -11,49 +11,42 @@ body{
     background-color: black;
 }
 
+
+/* PARTIE HAUT ADAM RÉVISER AD */
+
 .haut-de-page{
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
+    /* flex-grow: 2; */
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.haut-de-page .article-haut{
+    max-width: 500px;
+    margin: auto;
 }
 .titre_shape{
     word-break: break-all;
     font-size: 150px;
 }
 
-.div-img1{
-    max-width: 1000px;
-    
+
+@media screen and (max-width: 50rem){
+    .titre_shape{
+        font-size: 100px;
+        }
+    }
+
+.div-img{ /* cible les 2 img stylé du bord */
+    width: 500px;
+    max-width: 100%;
 }
-.image-2{
-    max-width: 1000px; 
+.div-img-2{ /* ne cible que la seconde */
+    min-width: 200px;
 }
 
-.article-haut{
-    max-width: 800px;
-    /* border: red 3px solid; */
-    /* padding-left: 4vw; */
-    /* padding-right: 4vw; */
-}
-.image-1{
-    /* height: 45rem; */
-    /* object-fit: scale-down; */
-    /* margin: 0px; */
-    /* width: auto; */
-    /* padding-right: 8rem; */
-    /* border: red solid 2px; */
-    max-width: 1000px;
-    
-    /* padding-right: 4vw; */
-}
-.div_image_2{
-    max-width: 1000px;
-    /* text-align: right;
-    width: auto; */
-}
 
 
 .titre-haut-carte{
@@ -70,12 +63,14 @@ h1{
 
 #sous-titre{
     color: #c09628;
-    padding-bottom: 100px ;
+    padding: 3rem 0;
+    padding-top: 0.5rem;
     font-size: 32px;
 }
 
 p{
     color: white;
+    font-size: 1.2rem;
 }
 
 
@@ -95,17 +90,28 @@ p{
     background-color: black;
 } */
 
-.carte1, .carte2, .carte3{
-    padding: 3vw;
+.carte__child{
+    padding: 2rem;
     background-color: white;
     width: 24rem;
     height: 36rem;
     padding-bottom: 0rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    margin-bottom: 1rem;
 }
-
+.carte__child h2{
+    text-align: left;
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+.carte3{
+    background-color: #c09628;
+}
+.carte3 .titre-carte ,.carte3 .para-carte{
+    color: white !important;
+}
 .img-carte{
     text-align: center;
     height: 4rem;
@@ -144,10 +150,6 @@ p{
 
 /*milieu-de-page*/
 
-body{
-    background-color: black;
-}
-
 h2{display:inline-block;min-width:50px;}
 
 h2{
@@ -175,6 +177,13 @@ h2:hover:after {
   background: #c09628;
 }
 
+
+.carte3 h2:hover:after{
+    background: white;
+}
+
+
+
 .centre{
     display: flex;
     flex-direction: row;
@@ -182,6 +191,8 @@ h2:hover:after {
     width: 100%; 
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
 }
 
 .article-centre{
@@ -223,12 +234,10 @@ h3{
 }
 
 .faites-nous-confiance{
-
+    display: block;
     color: white;
     font-size: 3rem;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 35%;
 }
 
 #button{
@@ -254,13 +263,7 @@ h3{
 
 .para-carte{
     color: black;
-}
-
-@media screen and (max-width: 50rem){
-.carte1, .carte2, .carte3{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    }
+    font-size: 1.2rem;
 }
 
 @media screen and (min-width: 50rem) {
