@@ -3,13 +3,13 @@
 
     <div class="haut-de-page">
         <div class="image-1">
-            <img class="div-img1" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
+            <img class="div-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/image-1.png" alt="">
         </div>
-            <div class="article-haut">
-                <h1 class="titre_shape">SHAPE</h1>
-                <h5 id="sous-titre">Vos projets prennent forme.</h5>
-                <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
-            </div>
+        <div class="article-haut">
+            <h1 class="titre_shape">SHAPE</h1>
+            <h5 id="sous-titre">Vos projets prennent forme.</h5>
+            <p class="para_shape">SHAPE est une jeune agence web basée à Dijon spécialisée dans la création de site vitrine et e-commerce pour les artisans, les indépendants et les TPE <br><br>Nous proposons une écoute personnalisée de vos besoins pour réaliser un site qui vous ressemble vraiment. <br><br> Récupérez une soluton clef en main avec un Wordpress sur-mesure et érez sans intermédiaire votre communication digitale</p>
+        </div>
     </div>
     <div class="titre-haut-carte">
         <div class="encadremenet-nos-services">
@@ -17,18 +17,18 @@
         </div>
     </div>
     <div class="carte">
-        <div class="carte1">
+        <div class="carte1 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/plume.svg" alt="">
-            <h2 class="titre-carte">IDENTITÉ VISUELLE</h2>
+            <h2 class="titre-carte">IDENTITÉ-VISUELLE</h2>
             <p class="para-carte">Ensemble, bâtissons la communication visuelle de votre entreprise, elle a pour but de représenter la marque sur l'ensemble de ses supports de communication (logo, couleurs, typographies, iconographie...)</p>
         </div>
             
-        <div class="carte2">
+        <div class="carte2 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/code.svg" alt="">
             <h2 class="titre-carte"> DÉVELOPPEMENT</h2>
             <p class="para-carte">Nous concevons pour vous un site internet dont le but est de générer du trafic des propects. Nos développeurs et web designer créent des interfaces utilisateur uniques et modernes pour la croissance de votre entreprise</p>
         </div>
-        <div class="carte3">
+        <div class="carte3 carte__child">
             <img class="img-carte" src="<?php echo get_template_directory_uri(); ?>/assets/img/fusee.svg" alt="">
             <h2 class="titre-carte">WEBMARKETING</h2>
             <p class="para-carte"> Nous vous propulsons au succées grâce nos stratégies webmarketing pour vous permettre de toucher une audience ciblée, référencement naturel, Google Adwords, Facebook et Linkedin Ads/p>
@@ -41,7 +41,9 @@
     <div class="titre-centre">
         <div class="encadremenet-faites-nous-confiance">
             <h2 class="faites-nous-confiance">FAITES-NOUS CONFIANCE</h2>
-            <div class="trait-faites-nous-confiance"></div>
+            <div class="trait-faites-nous-confiance">
+
+            </div>
         </div>
     </div>
 
@@ -56,17 +58,13 @@
     
     
 
+
+
+
     <div class="container ">
 
         <div id="contact-h2-parent">
             <h2 id="contact-h2">CONTACT</h2>
-        </div>
-
-        <div class="contact_para-mobile">
-            <h3>Je souhaite vous contacter</h3>
-            <p 
-             class="contact_para-1_p"> Nous sommes disponibles du Lundi au Vendredi de 9h à 12h et de 14h à 17h et nous nous ferons une joie de répondre à vos questions !
-            </p>
         </div>
 
         <div class="contact">
